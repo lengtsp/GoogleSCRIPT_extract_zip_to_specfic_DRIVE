@@ -36,10 +36,10 @@ By default, Google Apps Script's `Utilities.unzip()` extracts all files into a s
 ```javascript
 function extractZipWithFolders() {
   // The ID of the ZIP file in Google Drive
-  var zipFileId = '1jfB64wSQNrm6lHZ4xkgzc85J1PDmwWdb';
+  var zipFileId = '[ZIPID]';
   
   // The ID of the main destination folder
-  var destinationFolderId = '1qxSw6lihren991_ff8UtDvQk6KZzqGEo';
+  var destinationFolderId = '[destination folder id]';
 
   try {
     var zipFile = DriveApp.getFileById(zipFileId);
